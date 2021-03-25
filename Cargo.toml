@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "encrypted-spj-server",
+    "encrypted-spj-client",
+    "common"
+]

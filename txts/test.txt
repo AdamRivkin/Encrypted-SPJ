@@ -1,0 +1,28 @@
+CREATE TABLE t1 id1 a b c join1
+CREATE TABLE t2 id2 aa bb cc join2
+
+ANNOTATE join1 join2
+ANNOTATE join1 join4
+ANNOTATE join2 join4
+ANNOTATE a aa
+ANNOTATE a join4
+
+INSERT INTO t1 0 seven two three b
+INSERT INTO t1 1 seven five three b
+INSERT INTO t1 2 seven eighteighteighteighteighteighteight nine c
+
+INSERT INTO t2 0 1 2 3 b
+INSERT INTO t2 1 2 3 4 b
+INSERT INTO t2 2 seven 3 4 c
+
+CREATE TABLE t3 id3 aaa bbb ccc
+
+INSERT INTO t3 0 1 one won
+
+CREATE TABLE t4 id4 join4
+
+INSERT INTO t4 0 b
+INSERT INTO t4 1 b
+INSERT INTO t4 2 c
+INSERT INTO t4 3 c
+INSERT INTO t4 4 seven

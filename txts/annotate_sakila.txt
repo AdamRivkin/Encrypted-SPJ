@@ -1,0 +1,9 @@
+ANNOTATE city.city_id address.city_id
+ANNOTATE city.country_id country.country_id
+ANNOTATE film.film_id film_category.film_id
+ANNOTATE film.film_id film_category.film_id
+ANNOTATE category.category_id film_category.category_id
+ANNOTATE category.category_id film_category.category_id
+ANNOTATE film_actor.film_id film.film_id
+ANNOTATE film_actor.film_id film.film_id
+ANNOTATE customer.address_id address.address_id
